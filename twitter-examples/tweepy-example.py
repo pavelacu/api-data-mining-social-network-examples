@@ -1,7 +1,7 @@
 import tweepy
 import yaml
 
-with open("/home/pavel/Projects/PythonProjects/config-tweepy.yml", 'r') as ymlfile:
+with open("../config-tweepy.yml", 'r') as ymlfile:
     cfg = yaml.load(ymlfile)
 
 for section in cfg:
